@@ -1,0 +1,29 @@
+.navbar_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.navbar_item{
+    list-style: none;
+}
+
+.Profile_image_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.profile_image{
+    object-fit: cover;
+}

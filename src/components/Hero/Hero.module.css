@@ -1,0 +1,17 @@
+.Hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: wheat; */
+    background-color: #242424;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_image{
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+}
